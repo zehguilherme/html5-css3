@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+.navbar{
+  background-color: white;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+.test {
+text-align: center;
+}
+.frase{
+  text-align: center;
+  color: red;
+  background-color: black;
+  margin-bottom: -9px;
+}
+
+.carousel_slide{
+  padding-top: 10px;
+
+}
+
+.concerto{
+  text-align: center;
+}
+
+.manutencao{
+  text-align: center;
+  color: red;
+  font-size: 28px;
+  border-bottom: 70px;
+}
+
+.principal{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.principal.primeiro {
+  margin-top: 42px;
+}
+
+.rodape{
+    background-color: #303030;
+}
+
+.clica{
+  color: #ff3e22;
+}
+.siga{
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+}
+.cool{
+  color: white;
+  margin-right: 303px;
+}
+.voltar{
+  color: #ff3e22;
+  padding-bottom: 64px;
+}
+
+ul{
+  list-style: none;
+}
+
+ol{
+  color: white;
+  list-style: none;
+}
+.test{
+  color: white;
+
+}
+
+.somos{
+  background-color: #1c1c1c;
+}
+
+main{
+  padding-bottom: 28px;
+}
+.row.primeiro{
+padding-top: 140px;
+}
+.test.primeira{
+  padding-bottom: 67px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head{
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+body {
+  background-color: blue;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  body {
+    background-color: red;  }
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body {
+    background-color: green;  }
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  body {
+    background-color: yellow;  }
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  body {
+    background-color: purple;  }
+
+ }
